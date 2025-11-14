@@ -152,7 +152,7 @@ router.delete('/:id',async(req,res)=>{
 
 
     }catch(err){
-
+//naveen
           console.log(err);
         res.status(500).json({ error: 'internal server' })
     }
