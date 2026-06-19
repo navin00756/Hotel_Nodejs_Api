@@ -18,5 +18,11 @@ jobs:
         with:
           node-version: 22
 
+      - name: Check Node Version
+        run: node -v
+
       - name: Install Dependencies
         run: npm install
+
+      - name: List Files
+        run: ls
